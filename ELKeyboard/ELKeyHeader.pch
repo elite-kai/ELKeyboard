@@ -1,0 +1,21 @@
+//
+//  ELKeyHeader.pch
+//  ELKeyboard
+//
+//  Created by Parkin on 2017/6/29.
+//  Copyright © 2017年 Parkin. All rights reserved.
+//
+
+#ifndef ELKeyHeader_pch
+#define ELKeyHeader_pch
+
+#define ELColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#import "UIView+Layout.h"
+#import "ELCVFlowLayout.h"
+#import "ELEmoManage.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* ELKeyHeader_pch */
